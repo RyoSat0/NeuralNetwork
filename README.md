@@ -7,9 +7,13 @@ Humanity has evolved over the course of long history, taking countless years to 
 As I read through the book, Michael teaches how neural networks work by explaining the underlying mathematics and shows how to implement one. After I implemented all the neural network functionalities, such as feedforward, backpropagation, and stochastic gradient descent.
 
 # Performance
-I trained the network on 70,000 images of handwritten digits, and after 30 epochs of training, the network achieved an accuracy of 95.16%. The image below shows the accuracy of the neural network after each epoch. Performing another stochastic gradient descent with a lower eta will improve the network's accuracy to 95.45%.
+I trained the network on 70,000 images of handwritten digits, and after 30 epochs of training, the network achieved an accuracy of 95.16%. The image below shows the accuracy of the neural network after each epoch. 
+<img width="183" alt="Image" src="https://github.com/user-attachments/assets/ae8b7368-b089-4894-8fea-2eeba1192e42" />
+Performing another stochastic gradient descent with a lower eta will improve the network's accuracy to 95.45%.
 
 # Application
 As I continued reading through the book, Michael mentioned, 'Once we've learned a good set of weights and biases for a network, it can easily be ported to run in JavaScript in a web browser.' This piqued my curiosity, so I decided to try it. Below is a part of the website called Mosaicify that I made, where I have ported the neural network I trained to run in TypeScript.
+
+<img width="296" alt="Image" src="https://github.com/user-attachments/assets/92ceeee1-7476-463a-b53a-ee9c94c2b836" />
 
 Although the success rate has decreased due to training-serving skew (the mismatch between training data and actual input), the rate is still decent as I implemented centering, scaling, and downsampling algorithms to make the input more similar to the training data.
