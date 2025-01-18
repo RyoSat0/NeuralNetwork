@@ -8,7 +8,9 @@ As I read through the book, Michael teaches how neural networks work by explaini
 
 # Performance
 I trained the network on 70,000 images of handwritten digits, and after 30 epochs of training, the network achieved an accuracy of 95.16%. The image below shows the accuracy of the neural network after each epoch. 
-![Image](https://github.com/user-attachments/assets/bfea575c-ba65-47c6-aec3-40df089111b4) ![Image](https://github.com/user-attachments/assets/7b1c98b5-6104-41be-84b9-b1a08e2d4352)
+
+<img width="89" alt="Image" src="https://github.com/user-attachments/assets/7a417996-f62c-4c9b-8e35-bb56de61104b" />
+
 
 Performing another stochastic gradient descent with a lower eta will improve the network's accuracy to 95.45%.
 
