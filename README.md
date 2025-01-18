@@ -15,7 +15,7 @@ Performing another stochastic gradient descent with a lower eta will improve the
 
 # Application
 As I continued reading through the book, Michael mentioned, 'Once we've learned a good set of weights and biases for a network, it can easily be ported to run in JavaScript in a web browser.' This piqued my curiosity, so I decided to try it. Below is a part of the website called Mosaicify that I made, where I have ported the neural network I trained to run in TypeScript.
-
-<img width="296" alt="Image" src="https://github.com/user-attachments/assets/92ceeee1-7476-463a-b53a-ee9c94c2b836" />
-
+<div style="text-align: center;">
+<img width="296" alt="Image" src="https://github.com/user-attachments/assets/70b5b880-c936-459b-8795-de5a0d81f3dc" />
+</div>
 Although the success rate has decreased due to training-serving skew (the mismatch between training data and actual input), the rate is still decent as I implemented centering, scaling, and downsampling algorithms to make the input more similar to the training data.
